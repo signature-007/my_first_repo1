@@ -4,15 +4,15 @@ import { GoArrowUpRight } from "react-icons/go";
 function LandingPage() {
   return (
     <div className="w-full h-screen bg-zinc-900 pt-1">
-      <div className="textstructure mt-44 px-20">
+      <div className="textstructure mt-40 px-20">
         {["we create", "eye-opening", "presentations"].map((items, index) => {
           return (
             <div className="masker" key={index}>
               <div className="w-fit flex items-center overflow-hidden">
                 {index === 1 && (
-                  <div className="mask_image mr-[1vw] top-[0.1vw] rounded-md w-[8vw] h-[3.8vw] bg-green-500 relative "></div>
+                  <div className="mask_image mr-[1vw] top-[0.1vw] rounded-md w-[8vw] h-[5vw] bg-green-500 relative "></div>
                 )}
-                <h1 className="mask_context uppercase tracking-tighter text-[5vw] leading-[4.7vw] font-['tahoma'] font-bold">
+                <h1 className="mask_context uppercase tracking-tighte text-[9vw] leading-[5vw] font-['founders_grotesk_x_condensed'] font-bold">
                   {items}
                 </h1>
               </div>
